@@ -1,0 +1,17 @@
+/*LAB 1-2: CONSTRUCTOR FUNCTION*/
+#faveBlock{
+	display:none;
+}
+h1{
+	font-family: sans-serif;
+}
+input{
+	padding: 5px 10px;
+	margin: 10px 20px 10px 5px;
+	font-family: monospace;
+}
+li{
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 1.5em;
+}

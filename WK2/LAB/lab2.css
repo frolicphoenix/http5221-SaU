@@ -1,0 +1,49 @@
+/*LAB 2 - CODING STANDARDS */
+/*==== Login block form styling====*/
+.login {
+	background: #f0f0e1;
+	padding: 10px;
+	border: 3px dashed;
+}
+
+.login__fieldset{
+	width: 15em;
+}
+
+.login__label{
+	font-family: "Courier New", monospace;
+	font-weight: bold;
+	background: #c1c1c1;
+	padding: 0 3px;
+}
+
+.login__txtbox{
+	width: 8em;
+}
+
+.login__txtbox_error{
+	background: red;
+}
+
+.login__button{
+	margin: 15px 0 0 20px;
+}
+
+
+/*==== Output block styling ====*/
+.output {
+	margin-top: 15px;	
+	border: 2px solid black;
+	padding: 30px 30px;	
+	display:none;
+}
+
+.output__text{
+	font-weight: bold;
+}
+
+
+
+
+
+/*SUMMER 2024*/

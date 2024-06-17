@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab 1-2</title>
+	<link href="favestyles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<h1>Fave Three List</h1>
+
+<!-- FAVE THREE FORM -->
+<section>
+<form name="fave_form" action="#" method="get">
+  <fieldset>
+	<legend>Enter the Names of Your Favourite Three &amp; their Phone Numbers</legend>
+
+	<label for="n_1">Fave 1 Name:</label><input type="text" name="name1" id="n_1" class="names"/>
+	<label for="p_1">Phone:</label><input type="text" name="phone1" id="p_1" class="phones"/>
+	<br />
+	<label for="n_2">Fave 2 Name:</label><input type="text" name="name2" id="n_2" class="names"/>
+	<label for="p_2">Phone:</label><input type="text" name="phone2" id="p_2" class="phones"/>
+	<br />
+	<label for="n_3">Fave 3 Name:</label><input type="text" name="name3" id="n_3" class="names"/>
+	<label for="p_3">Phone:</label><input type="text" name="phone3" id="p_3" class="phones"/>
+	<!-- <br />
+	<label for="n_4">Fave 4 Name:</label><input type="text" name="name4" id="n_4" class="names"/>
+	<label for="p_4">Phone:</label><input type="text" name="phone4" id="p_4" class="phones"/>
+	<br />
+	<label for="n_5">Fave 5 Name:</label><input type="text" name="name5" id="n_5" class="names"/>
+	<label for="p_5">Phone:</label><input type="text" name="phone5" id="p_5" class="phones"/>
+	<br /> -->
+	<input type="submit" value="Save My Fave Five" />
+  </fieldset>
+</form>
+</section>
+
+<!--FAVE THREE OUTPUT-->
+<div id="faveBlock">
+	<h2>My Fave Three</h2>
+	<ol id="faveList"></ol>
+</div>
+
+<script src="LAB1-2-Fave3.js"></script>
+</body>
+</html>
